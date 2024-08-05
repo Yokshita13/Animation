@@ -12,12 +12,4 @@ document.addEventListener('DOMContentLoaded', function () {
         fireworkAnimation.appendChild(firework);
     }
 
-    // Ensure the mainContent is hidden initially
-    mainContent.classList.add('hidden');
-
-    // Transition to main content after animation ends
-    setTimeout(() => {
-        fireworkAnimation.classList.add('hidden');
-        mainContent.classList.remove('hidden');
-    }, 5000); // Adjust this duration if necessary
-});
+   
